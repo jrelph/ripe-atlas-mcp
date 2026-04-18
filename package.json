@@ -1,0 +1,58 @@
+{
+  "name": "ripe-atlas-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for the RIPE Atlas network measurement platform — create measurements, retrieve results, search probes",
+  "license": "MIT",
+  "author": "Jasper Relph",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "ripe-atlas-mcp-server": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrelph/ripe-atlas-mcp.git"
+  },
+  "homepage": "https://github.com/jrelph/ripe-atlas-mcp",
+  "bugs": {
+    "url": "https://github.com/jrelph/ripe-atlas-mcp/issues"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ripe-atlas",
+    "network-measurements",
+    "ping",
+    "traceroute",
+    "dns",
+    "tls",
+    "http",
+    "ntp",
+    "internet-measurement"
+  ],
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "axios": "^1.7.9",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
