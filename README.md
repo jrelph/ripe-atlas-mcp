@@ -2,6 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/ripe-atlas-mcp-server)](https://www.npmjs.com/package/ripe-atlas-mcp-server)
 [![MCP Registry](https://img.shields.io/badge/MCP-Registry-blue?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggNHoiLz48L3N2Zz4=)](https://www.npmjs.com/package/ripe-atlas-mcp-server)
+[![Socket Badge](https://socket.dev/api/badge/npm/package/ripe-atlas-mcp-server)](https://socket.dev/npm/package/ripe-atlas-mcp-server)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server for the [RIPE Atlas](https://atlas.ripe.net) network measurement platform. Enables AI assistants to create network measurements, retrieve results, search probes, and manage credits.
