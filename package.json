@@ -1,7 +1,8 @@
 {
   "name": "ripe-atlas-mcp-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for the RIPE Atlas network measurement platform — create measurements, retrieve results, search probes",
+  "mcpName": "io.github.jrelph/ripe-atlas",
   "license": "MIT",
   "author": "Jasper Relph",
   "type": "module",

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.jrelph/ripe-atlas",
+  "title": "RIPE Atlas",
+  "description": "MCP server for the RIPE Atlas network measurement platform — create ping, traceroute, DNS, TLS, HTTP, and NTP measurements, retrieve results, and search probes worldwide.",
+  "version": "1.0.1",
+  "repository": {
+    "url": "https://github.com/jrelph/ripe-atlas-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://atlas.ripe.net",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "ripe-atlas-mcp-server",
+      "version": "1.0.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "RIPE_ATLAS_API_KEY",
+          "description": "RIPE Atlas API key with 'create measurement' permission. Get one at https://atlas.ripe.net/keys/",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
